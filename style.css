@@ -18,7 +18,7 @@ body {
 
 .scoreboard-container {
   max-width: 1150px;
-  width: 40%;
+  width: 50%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -28,10 +28,7 @@ body {
   background-color: black;
   border: white solid 2px;
   border-radius: 8px;
-  height: 400px;
-}
-
-.away-container {
+  height: 450px;
 }
 
 .team-home,
@@ -64,5 +61,13 @@ body {
   width: 100px;
   margin: 1rem auto;
   display: block;
-  border: yellow solid 2px;
+}
+
+.btn {
+  background-color: #ff6c37;
+  padding: 9px 13px;
+  border-radius: 7px;
+  border: white solid 2px;
+  color: white;
+  cursor: pointer;
 }
