@@ -18,7 +18,7 @@ body {
 
 .scoreboard-container {
   max-width: 1150px;
-  width: 50%;
+  width: 40%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -65,9 +65,9 @@ body {
 
 .btn {
   background-color: #ff6c37;
-  padding: 9px 13px;
+  padding: 9px 17px;
   border-radius: 7px;
-  border: white solid 2px;
+  border: white solid 1px;
   color: white;
   cursor: pointer;
 }
