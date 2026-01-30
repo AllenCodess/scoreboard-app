@@ -7,3 +7,5 @@ This app allows a team to score up to a certain amount of points before resettin
 HTML, CSS, JAVASCRIPT
 
 [Live Demo](https://allencodess.github.io/scoreboard-app/)
+
+![Scoreboard App Screenshot](/scoreboard-flick.png)
