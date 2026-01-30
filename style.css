@@ -39,6 +39,12 @@ body {
   margin-bottom: 23rem;
 }
 
+#reset {
+  position: absolute;
+  margin-top: 24rem;
+  display: none;
+}
+
 .team-home,
 .team-away {
   font-size: 40px;

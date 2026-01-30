@@ -8,6 +8,7 @@ let awayScoreEl = document.querySelector(".away-score")
 awayScoreEl.textContent = 0
 
 const winnerMessage = document.querySelector("#winner-message")
+const resetBtn = document.querySelector("#reset")
 
 const awayTouchdownEl = document.querySelector("#away-touchdown")
 const awayExtraEl = document.querySelector("#away-extra")
@@ -26,12 +27,25 @@ homeTouchdownEl.addEventListener("click", homeTouchdownScore)
 homeExtraEl.addEventListener("click", homeExtra)
 homeFgEl.addEventListener("click", FieldGoal)
 
+resetBtn.addEventListener("click", resetGame)
+
+function resetGame () {
+    homeScore = 0
+    awayScore = 0
+    homeScoreEl.textContent = homeScore
+    awayScoreEl.textContent = awayScore
+    winnerMessage.textContent = ""
+    resetBtn.style.display = "none"
+}
+
 
 function winnerMessages () {
     if (homeScore >= 42) {
         winnerMessage.textContent = "Home Team Wins!!!!"
+        resetBtn.style.display = "block"
     } else if (awayScore >= 42) {
         winnerMessage.textContent = "Away Team Wins!!!"
+        resetBtn.style.display= "block"
     }
 }
 
