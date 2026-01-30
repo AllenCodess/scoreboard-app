@@ -15,3 +15,14 @@ body {
   font-family: "Bungee", sans-serif;
   color: white;
 }
+
+.scoreboard-container {
+  max-width: 1150px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  column-gap: 2rem;
+}
