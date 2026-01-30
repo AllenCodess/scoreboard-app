@@ -14,4 +14,4 @@ HTML, CSS, JAVASCRIPT
 
 [Live Demo](https://allencodess.github.io/scoreboard-app/)
 
-![Scoreboard App Screenshot](/scoreboard-flick.png)
+![Scoreboard App Screenshot](scoreboard-screenshot.png)
